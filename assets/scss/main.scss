@@ -47,8 +47,14 @@ nav {
 		font-size: 16px;
 	}
 	
-	iframe, .fb-page {
+	iframe {
 		width: 100%;
+	}
+	
+	.fb-page {
+		&, span, iframe {
+			width: 100% !important;
+		}
 	}
 }
 

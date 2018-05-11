@@ -8151,58 +8151,61 @@ nav {
   .card p {
     font-size: 16px; }
   /* line 50, ../scss/main.scss */
-  .card iframe, .card .fb-page {
+  .card iframe {
     width: 100%; }
+  /* line 55, ../scss/main.scss */
+  .card .fb-page, .card .fb-page span, .card .fb-page iframe {
+    width: 100% !important; }
 
-/* line 56, ../scss/main.scss */
+/* line 62, ../scss/main.scss */
 #section-social .brand-icon {
   text-align: center; }
-/* line 60, ../scss/main.scss */
+/* line 66, ../scss/main.scss */
 #section-social a {
   font-size: 1.3rem; }
 
-/* line 65, ../scss/main.scss */
+/* line 71, ../scss/main.scss */
 .facebook-blue {
   color: #3b5998; }
-  /* line 67, ../scss/main.scss */
+  /* line 73, ../scss/main.scss */
   .facebook-blue.lighten {
     color: #4c70ba; }
 
-/* line 69, ../scss/main.scss */
+/* line 75, ../scss/main.scss */
 .instagram-maroon {
   color: #c13584; }
-  /* line 71, ../scss/main.scss */
+  /* line 77, ../scss/main.scss */
   .instagram-maroon.lighten {
     color: #d1589c; }
 
-/* line 73, ../scss/main.scss */
+/* line 79, ../scss/main.scss */
 .twitter-blue {
   color: #00aced; }
-  /* line 75, ../scss/main.scss */
+  /* line 81, ../scss/main.scss */
   .twitter-blue.lighten {
     color: #21c2ff; }
 
-/* line 77, ../scss/main.scss */
+/* line 83, ../scss/main.scss */
 .youtube-red {
   color: #bb0000; }
-  /* line 79, ../scss/main.scss */
+  /* line 85, ../scss/main.scss */
   .youtube-red.lighten {
     color: #ee0000; }
 
-/* line 81, ../scss/main.scss */
+/* line 87, ../scss/main.scss */
 .soundcloud-orange {
   color: #fe3801; }
-  /* line 83, ../scss/main.scss */
+  /* line 89, ../scss/main.scss */
   .soundcloud-orange.lighten {
     color: #fe6034; }
 
-/* line 85, ../scss/main.scss */
+/* line 91, ../scss/main.scss */
 .bandcamp-blue {
   color: #408ea3; }
-  /* line 87, ../scss/main.scss */
+  /* line 93, ../scss/main.scss */
   .bandcamp-blue.lighten {
     color: #58a8be; }
 
-/* line 90, ../scss/main.scss */
+/* line 96, ../scss/main.scss */
 .page-footer {
   padding-bottom: 20px; }
