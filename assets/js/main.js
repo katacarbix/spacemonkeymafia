@@ -4,7 +4,7 @@ $(document).ready(function(){
 		height: 600,
 		duration: 800
 	});
-	
+	$('ul.tabs').tabs();
 	$('a.email').mailto();
 	
 	function svgasimg(){

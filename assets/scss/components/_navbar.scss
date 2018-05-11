@@ -147,6 +147,18 @@ nav {
 			float: left;
 		}
 	}
+	
+	.tabs, .tabs .tab {
+		height: $navbar-height-mobile;
+		line-height: $navbar-height-mobile;
+		
+		a {
+			font-size: 18px;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
 
 	// Navbar Search Form
 	form {
@@ -199,7 +211,7 @@ nav {
 	nav.nav-extended .nav-wrapper {
 		min-height: $navbar-height;
 	}
-	nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+	nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i, nav .tabs, nav .tabs .tab {
 		height: $navbar-height;
 		line-height: $navbar-line-height;
 	}

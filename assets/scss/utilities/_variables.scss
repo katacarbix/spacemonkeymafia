@@ -195,9 +195,9 @@ $switch-radius: 15px !default;
 // ==========================================================================
 
 // Media Query Ranges
-$small-screen: 800px !default;
-$medium-screen: 1280px !default;
-$large-screen: 1500px !default;
+$small-screen: 720px !default;
+$medium-screen: 1024px !default;
+$large-screen: 1440px !default;
 $small-screen-up: $small-screen + 1px !default;
 $medium-screen-up: $medium-screen + 1px !default;
 $large-screen-up: $large-screen + 1px !default;

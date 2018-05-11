@@ -2503,11 +2503,11 @@ th {
   max-width: 1280px;
   width: 95%; }
 
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 721px) {
   /* line 7, ../scss/utilities/_grid.scss */
   .container {
     width: 87.5%; } }
-@media only screen and (min-width: 1281px) {
+@media only screen and (min-width: 1025px) {
   /* line 12, ../scss/utilities/_grid.scss */
   .container {
     width: 80%; } }
@@ -2733,7 +2733,7 @@ th {
     /* line 50, ../scss/utilities/_grid.scss */
     .row .col.push-s12 {
       left: 100%; }
-    @media only screen and (min-width: 801px) {
+    @media only screen and (min-width: 721px) {
       /* line 104, ../scss/utilities/_grid.scss */
       .row .col.m1 {
         width: 8.33333%;
@@ -2914,7 +2914,7 @@ th {
       /* line 50, ../scss/utilities/_grid.scss */
       .row .col.push-m12 {
         left: 100%; } }
-    @media only screen and (min-width: 1281px) {
+    @media only screen and (min-width: 1025px) {
       /* line 123, ../scss/utilities/_grid.scss */
       .row .col.l1 {
         width: 8.33333%;
@@ -3095,7 +3095,7 @@ th {
       /* line 50, ../scss/utilities/_grid.scss */
       .row .col.push-l12 {
         left: 100%; } }
-    @media only screen and (min-width: 1501px) {
+    @media only screen and (min-width: 1441px) {
       /* line 142, ../scss/utilities/_grid.scss */
       .row .col.xl1 {
         width: 8.33333%;
@@ -3308,11 +3308,11 @@ html {
     /* line 5, ../scss/utilities/_typography.scss */
     html {
       font-size: 15px; } }
-  @media only screen and (min-width: 1280px) {
+  @media only screen and (min-width: 1024px) {
     /* line 5, ../scss/utilities/_typography.scss */
     html {
       font-size: 15.5px; } }
-  @media only screen and (min-width: 1500px) {
+  @media only screen and (min-width: 1440px) {
     /* line 5, ../scss/utilities/_typography.scss */
     html {
       font-size: 16px; } }
@@ -3389,83 +3389,83 @@ small {
     /* line 46, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.2rem; } }
-  @media only screen and (min-width: 395px) {
+  @media only screen and (min-width: 396px) {
     /* line 46, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.224rem; } }
-  @media only screen and (min-width: 430px) {
+  @media only screen and (min-width: 432px) {
     /* line 46, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.248rem; } }
-  @media only screen and (min-width: 465px) {
+  @media only screen and (min-width: 468px) {
     /* line 46, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.272rem; } }
-  @media only screen and (min-width: 500px) {
+  @media only screen and (min-width: 504px) {
     /* line 46, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.296rem; } }
-  @media only screen and (min-width: 535px) {
+  @media only screen and (min-width: 540px) {
     /* line 46, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.32rem; } }
-  @media only screen and (min-width: 570px) {
+  @media only screen and (min-width: 576px) {
     /* line 46, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.344rem; } }
-  @media only screen and (min-width: 605px) {
+  @media only screen and (min-width: 612px) {
     /* line 46, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.368rem; } }
-  @media only screen and (min-width: 640px) {
+  @media only screen and (min-width: 648px) {
     /* line 46, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.392rem; } }
-  @media only screen and (min-width: 675px) {
+  @media only screen and (min-width: 684px) {
     /* line 46, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.416rem; } }
-  @media only screen and (min-width: 710px) {
+  @media only screen and (min-width: 720px) {
     /* line 46, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.44rem; } }
-  @media only screen and (min-width: 745px) {
+  @media only screen and (min-width: 756px) {
     /* line 46, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.464rem; } }
-  @media only screen and (min-width: 780px) {
+  @media only screen and (min-width: 792px) {
     /* line 46, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.488rem; } }
-  @media only screen and (min-width: 815px) {
+  @media only screen and (min-width: 828px) {
     /* line 46, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.512rem; } }
-  @media only screen and (min-width: 850px) {
+  @media only screen and (min-width: 864px) {
     /* line 46, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.536rem; } }
-  @media only screen and (min-width: 885px) {
+  @media only screen and (min-width: 900px) {
     /* line 46, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.56rem; } }
-  @media only screen and (min-width: 920px) {
+  @media only screen and (min-width: 936px) {
     /* line 46, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.584rem; } }
-  @media only screen and (min-width: 955px) {
+  @media only screen and (min-width: 972px) {
     /* line 46, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.608rem; } }
-  @media only screen and (min-width: 990px) {
+  @media only screen and (min-width: 1008px) {
     /* line 46, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.632rem; } }
-  @media only screen and (min-width: 1025px) {
+  @media only screen and (min-width: 1044px) {
     /* line 46, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.656rem; } }
-  @media only screen and (min-width: 1060px) {
+  @media only screen and (min-width: 1080px) {
     /* line 46, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.68rem; } }
@@ -3619,7 +3619,7 @@ video.responsive-video {
   display: inline-block;
   float: none; }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1024px) {
   /* line 164, ../scss/components/_global.scss */
   .pagination {
     width: 100%; }
@@ -3711,57 +3711,57 @@ ul.staggered-list li {
 /*********************
 	Media Query Classes
 **********************/
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 720px) {
   /* line 266, ../scss/components/_global.scss */
   .hide-on-small-only, .hide-on-small-and-down {
     display: none !important; } }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1024px) {
   /* line 271, ../scss/components/_global.scss */
   .hide-on-med-and-down {
     display: none !important; } }
 
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 721px) {
   /* line 276, ../scss/components/_global.scss */
   .hide-on-med-and-up {
     display: none !important; } }
 
-@media only screen and (min-width: 800px) and (max-width: 1280px) {
+@media only screen and (min-width: 720px) and (max-width: 1024px) {
   /* line 281, ../scss/components/_global.scss */
   .hide-on-med-only {
     display: none !important; } }
 
-@media only screen and (min-width: 1281px) {
+@media only screen and (min-width: 1025px) {
   /* line 286, ../scss/components/_global.scss */
   .hide-on-large-only {
     display: none !important; } }
 
-@media only screen and (min-width: 1281px) {
+@media only screen and (min-width: 1025px) {
   /* line 291, ../scss/components/_global.scss */
   .show-on-large {
     display: block !important; } }
 
-@media only screen and (min-width: 800px) and (max-width: 1280px) {
+@media only screen and (min-width: 720px) and (max-width: 1024px) {
   /* line 296, ../scss/components/_global.scss */
   .show-on-medium {
     display: block !important; } }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 720px) {
   /* line 301, ../scss/components/_global.scss */
   .show-on-small {
     display: block !important; } }
 
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 721px) {
   /* line 306, ../scss/components/_global.scss */
   .show-on-medium-and-up {
     display: block !important; } }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1024px) {
   /* line 311, ../scss/components/_global.scss */
   .show-on-medium-and-down {
     display: block !important; } }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 720px) {
   /* line 318, ../scss/components/_global.scss */
   .center-on-small-only {
     text-align: center; } }
@@ -3819,7 +3819,7 @@ td, th {
   vertical-align: middle;
   border-radius: 2px; }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1024px) {
   /* line 395, ../scss/components/_global.scss */
   table.responsive-table {
     width: 100%;
@@ -4953,7 +4953,7 @@ button.btn-floating {
   overflow-y: auto;
   border-radius: 2px;
   will-change: top, opacity; }
-  @media only screen and (max-width: 1280px) {
+  @media only screen and (max-width: 1024px) {
     /* line 1, ../scss/components/_modal.scss */
     .modal {
       width: 80%; } }
@@ -5053,7 +5053,7 @@ nav {
   nav .nav-wrapper {
     position: relative;
     height: 100%; }
-  @media only screen and (min-width: 1281px) {
+  @media only screen and (min-width: 1025px) {
     /* line 40, ../scss/components/_navbar.scss */
     nav a.button-collapse {
       display: none; } }
@@ -5080,7 +5080,7 @@ nav {
     nav .brand-logo.center {
       left: 50%;
       transform: translateX(-50%); }
-    @media only screen and (max-width: 1280px) {
+    @media only screen and (max-width: 1024px) {
       /* line 58, ../scss/components/_navbar.scss */
       nav .brand-logo {
         left: 50%;
@@ -5146,56 +5146,66 @@ nav {
     /* line 146, ../scss/components/_navbar.scss */
     nav ul.left {
       float: left; }
-  /* line 152, ../scss/components/_navbar.scss */
+  /* line 151, ../scss/components/_navbar.scss */
+  nav .tabs, nav .tabs .tab {
+    height: 56px;
+    line-height: 56px; }
+    /* line 155, ../scss/components/_navbar.scss */
+    nav .tabs a, nav .tabs .tab a {
+      font-size: 18px; }
+      /* line 157, ../scss/components/_navbar.scss */
+      nav .tabs a:hover, nav .tabs .tab a:hover {
+        text-decoration: none; }
+  /* line 164, ../scss/components/_navbar.scss */
   nav form {
     height: 100%; }
-  /* line 156, ../scss/components/_navbar.scss */
+  /* line 168, ../scss/components/_navbar.scss */
   nav .input-field {
     margin: 0;
     height: 100%; }
-    /* line 160, ../scss/components/_navbar.scss */
+    /* line 172, ../scss/components/_navbar.scss */
     nav .input-field input {
       height: 100%;
       font-size: 1.2rem;
       border: none;
       padding-left: 2rem; }
-      /* line 166, ../scss/components/_navbar.scss */
+      /* line 178, ../scss/components/_navbar.scss */
       nav .input-field input:focus, nav .input-field input[type=text]:valid, nav .input-field input[type=password]:valid, nav .input-field input[type=email]:valid, nav .input-field input[type=url]:valid, nav .input-field input[type=date]:valid {
         border: none;
         box-shadow: none; }
-    /* line 173, ../scss/components/_navbar.scss */
+    /* line 185, ../scss/components/_navbar.scss */
     nav .input-field label {
       top: 0;
       left: 0; }
-      /* line 177, ../scss/components/_navbar.scss */
+      /* line 189, ../scss/components/_navbar.scss */
       nav .input-field label i {
         color: rgba(255, 255, 255, 0.7);
         transition: color .3s; }
-      /* line 181, ../scss/components/_navbar.scss */
+      /* line 193, ../scss/components/_navbar.scss */
       nav .input-field label.active i {
         color: #fff; }
 
-/* line 187, ../scss/components/_navbar.scss */
+/* line 199, ../scss/components/_navbar.scss */
 .navbar-fixed {
   position: relative;
   height: 56px;
   z-index: 997; }
-  /* line 192, ../scss/components/_navbar.scss */
+  /* line 204, ../scss/components/_navbar.scss */
   .navbar-fixed nav {
     position: fixed;
     transition: box-shadow .3s; }
 
-@media only screen and (min-width: 801px) {
-  /* line 199, ../scss/components/_navbar.scss */
+@media only screen and (min-width: 721px) {
+  /* line 211, ../scss/components/_navbar.scss */
   nav.nav-extended .nav-wrapper {
     min-height: 64px; }
 
-  /* line 202, ../scss/components/_navbar.scss */
-  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+  /* line 214, ../scss/components/_navbar.scss */
+  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i, nav .tabs, nav .tabs .tab {
     height: 64px;
     line-height: 64px; }
 
-  /* line 206, ../scss/components/_navbar.scss */
+  /* line 218, ../scss/components/_navbar.scss */
   .navbar-fixed {
     height: 64px; } }
 /*
@@ -5747,7 +5757,7 @@ nav {
     right: 0;
     left: auto; }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1024px) {
   /* line 166, ../scss/components/_sideNav.scss */
   .side-nav.fixed {
     transform: translateX(-105%); }
@@ -5942,8 +5952,8 @@ nav {
       display: block;
       width: 100%;
       height: 100%;
-      padding: 0 24px;
-      font-size: 14px;
+      padding: 0 32px;
+      font-size: 16px;
       text-overflow: ellipsis;
       overflow: hidden;
       transition: color .28s ease; }
@@ -5963,7 +5973,7 @@ nav {
     background-color: #262626;
     will-change: left, right; }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1024px) {
   /* line 85, ../scss/components/_tabs.scss */
   .tabs {
     display: flex; }
@@ -6066,18 +6076,18 @@ nav {
   display: block;
   position: fixed;
   z-index: 10000; }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 720px) {
     /* line 1, ../scss/components/_toast.scss */
     #toast-container {
       min-width: 100%;
       bottom: 0%; } }
-  @media only screen and (min-width: 801px) and (max-width: 1280px) {
+  @media only screen and (min-width: 721px) and (max-width: 1024px) {
     /* line 1, ../scss/components/_toast.scss */
     #toast-container {
       left: 5%;
       bottom: 7%;
       max-width: 90%; } }
-  @media only screen and (min-width: 1281px) {
+  @media only screen and (min-width: 1025px) {
     /* line 1, ../scss/components/_toast.scss */
     #toast-container {
       top: 10%;
@@ -6112,16 +6122,16 @@ nav {
   /* line 50, ../scss/components/_toast.scss */
   .toast.rounded {
     border-radius: 24px; }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 720px) {
     /* line 22, ../scss/components/_toast.scss */
     .toast {
       width: 100%;
       border-radius: 0; } }
-  @media only screen and (min-width: 801px) and (max-width: 1280px) {
+  @media only screen and (min-width: 721px) and (max-width: 1024px) {
     /* line 22, ../scss/components/_toast.scss */
     .toast {
       float: left; } }
-  @media only screen and (min-width: 1281px) {
+  @media only screen and (min-width: 1025px) {
     /* line 22, ../scss/components/_toast.scss */
     .toast {
       float: right; } }
@@ -7344,12 +7354,12 @@ textarea.materialize-textarea {
   /* line 187, ../scss/components/forms/_input-fields.scss */
   .input-field .prefix ~ label {
     margin-left: 3rem; }
-  @media only screen and (max-width: 1280px) {
+  @media only screen and (max-width: 1024px) {
     /* line 190, ../scss/components/forms/_input-fields.scss */
     .input-field .prefix ~ input {
       width: 86%;
       width: calc(100% - 3rem); } }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 720px) {
     /* line 197, ../scss/components/forms/_input-fields.scss */
     .input-field .prefix ~ input {
       width: 80%;
@@ -8106,12 +8116,11 @@ body {
 
 /* line 9, ../scss/main.scss */
 header {
-  position: relative;
-  margin-bottom: 20px; }
-  /* line 13, ../scss/main.scss */
+  position: relative; }
+  /* line 12, ../scss/main.scss */
   header .slider {
     z-index: 10; }
-  /* line 17, ../scss/main.scss */
+  /* line 16, ../scss/main.scss */
   header .logo-container {
     position: absolute;
     top: 0;
@@ -8119,6 +8128,7 @@ header {
     right: 0;
     bottom: 0;
     z-index: 20;
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8130,59 +8140,69 @@ header {
       max-height: 55%; }
 
 /* line 38, ../scss/main.scss */
+nav {
+  margin-bottom: 20px; }
+
+/* line 42, ../scss/main.scss */
 .card {
   margin-top: 0;
   color: #000000; }
+  /* line 46, ../scss/main.scss */
+  .card p {
+    font-size: 16px; }
+  /* line 50, ../scss/main.scss */
+  .card iframe, .card .fb-page {
+    width: 100%; }
 
-/* line 44, ../scss/main.scss */
+/* line 56, ../scss/main.scss */
 #section-social .brand-icon {
   text-align: center; }
-/* line 48, ../scss/main.scss */
+/* line 60, ../scss/main.scss */
 #section-social a {
   font-size: 1.3rem; }
 
-/* line 53, ../scss/main.scss */
+/* line 65, ../scss/main.scss */
 .facebook-blue {
   color: #3b5998; }
-  /* line 55, ../scss/main.scss */
+  /* line 67, ../scss/main.scss */
   .facebook-blue.lighten {
     color: #4c70ba; }
 
-/* line 57, ../scss/main.scss */
+/* line 69, ../scss/main.scss */
 .instagram-maroon {
   color: #c13584; }
-  /* line 59, ../scss/main.scss */
+  /* line 71, ../scss/main.scss */
   .instagram-maroon.lighten {
     color: #d1589c; }
 
-/* line 61, ../scss/main.scss */
+/* line 73, ../scss/main.scss */
 .twitter-blue {
   color: #00aced; }
-  /* line 63, ../scss/main.scss */
+  /* line 75, ../scss/main.scss */
   .twitter-blue.lighten {
     color: #21c2ff; }
 
-/* line 65, ../scss/main.scss */
+/* line 77, ../scss/main.scss */
 .youtube-red {
   color: #bb0000; }
-  /* line 67, ../scss/main.scss */
+  /* line 79, ../scss/main.scss */
   .youtube-red.lighten {
     color: #ee0000; }
 
-/* line 69, ../scss/main.scss */
+/* line 81, ../scss/main.scss */
 .soundcloud-orange {
   color: #fe3801; }
-  /* line 71, ../scss/main.scss */
+  /* line 83, ../scss/main.scss */
   .soundcloud-orange.lighten {
     color: #fe6034; }
 
-/* line 73, ../scss/main.scss */
+/* line 85, ../scss/main.scss */
 .bandcamp-blue {
   color: #408ea3; }
-  /* line 75, ../scss/main.scss */
+  /* line 87, ../scss/main.scss */
   .bandcamp-blue.lighten {
     color: #58a8be; }
 
-/* line 78, ../scss/main.scss */
+/* line 90, ../scss/main.scss */
 .page-footer {
   padding-bottom: 20px; }
