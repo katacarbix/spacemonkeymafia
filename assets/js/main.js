@@ -6,7 +6,6 @@ $(document).ready(function(){
 	});
 	$('ul.tabs').tabs();
 	$('a.email').mailto();
-	$('.fb-page iframe ._2p3a').css({'width': '100% !important'});
 	
 	function svgasimg(){
 		return document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image", "1.1");
@@ -26,3 +25,7 @@ $(document).ready(function(){
 		}
 	}
 });
+
+$('.fb-page iframe').ready(function(){
+	$('.fb-page iframe').contents().find('._2p3a').css({'width': '100% !important'});
+})
