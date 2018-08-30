@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$('.slider').slider({
 		indicators: false,
-		height: 600,
+		height: "",
 		duration: 800
 	});
 	$('ul.tabs').tabs();

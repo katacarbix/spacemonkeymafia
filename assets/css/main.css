@@ -2187,13 +2187,14 @@ template {
  */
 /* line 89, ../scss/utilities/_normalize.scss */
 a {
-  background-color: transparent; }
+  background-color: transparent;
+  outline: 0; }
 
 /**
  * Improve readability of focused elements when they are also in an
  * active/hover state.
  */
-/* line 98, ../scss/utilities/_normalize.scss */
+/* line 99, ../scss/utilities/_normalize.scss */
 a:active,
 a:hover {
   outline: 0; }
@@ -2203,14 +2204,14 @@ a:hover {
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
-/* line 110, ../scss/utilities/_normalize.scss */
+/* line 111, ../scss/utilities/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted; }
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-/* line 118, ../scss/utilities/_normalize.scss */
+/* line 119, ../scss/utilities/_normalize.scss */
 b,
 strong {
   font-weight: bold; }
@@ -2218,7 +2219,7 @@ strong {
 /**
  * Address styling not present in Safari and Chrome.
  */
-/* line 127, ../scss/utilities/_normalize.scss */
+/* line 128, ../scss/utilities/_normalize.scss */
 dfn {
   font-style: italic; }
 
@@ -2226,7 +2227,7 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
-/* line 136, ../scss/utilities/_normalize.scss */
+/* line 137, ../scss/utilities/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -2234,7 +2235,7 @@ h1 {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 145, ../scss/utilities/_normalize.scss */
+/* line 146, ../scss/utilities/_normalize.scss */
 mark {
   background: #ff0;
   color: #000; }
@@ -2242,14 +2243,14 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 154, ../scss/utilities/_normalize.scss */
+/* line 155, ../scss/utilities/_normalize.scss */
 small {
   font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 162, ../scss/utilities/_normalize.scss */
+/* line 163, ../scss/utilities/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -2257,11 +2258,11 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 170, ../scss/utilities/_normalize.scss */
+/* line 171, ../scss/utilities/_normalize.scss */
 sup {
   top: -0.5em; }
 
-/* line 174, ../scss/utilities/_normalize.scss */
+/* line 175, ../scss/utilities/_normalize.scss */
 sub {
   bottom: -0.25em; }
 
@@ -2270,14 +2271,14 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
-/* line 185, ../scss/utilities/_normalize.scss */
+/* line 186, ../scss/utilities/_normalize.scss */
 img {
   border: 0; }
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-/* line 193, ../scss/utilities/_normalize.scss */
+/* line 194, ../scss/utilities/_normalize.scss */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -2286,14 +2287,14 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-/* line 204, ../scss/utilities/_normalize.scss */
+/* line 205, ../scss/utilities/_normalize.scss */
 figure {
   margin: 1em 40px; }
 
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 212, ../scss/utilities/_normalize.scss */
+/* line 213, ../scss/utilities/_normalize.scss */
 hr {
   box-sizing: content-box;
   height: 0; }
@@ -2301,14 +2302,14 @@ hr {
 /**
  * Contain overflow in all browsers.
  */
-/* line 221, ../scss/utilities/_normalize.scss */
+/* line 222, ../scss/utilities/_normalize.scss */
 pre {
   overflow: auto; }
 
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 229, ../scss/utilities/_normalize.scss */
+/* line 230, ../scss/utilities/_normalize.scss */
 code,
 kbd,
 pre,
@@ -2328,7 +2329,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-/* line 252, ../scss/utilities/_normalize.scss */
+/* line 253, ../scss/utilities/_normalize.scss */
 button,
 input,
 optgroup,
@@ -2344,7 +2345,7 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-/* line 266, ../scss/utilities/_normalize.scss */
+/* line 267, ../scss/utilities/_normalize.scss */
 button {
   overflow: visible; }
 
@@ -2354,7 +2355,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 277, ../scss/utilities/_normalize.scss */
+/* line 278, ../scss/utilities/_normalize.scss */
 button,
 select {
   text-transform: none; }
@@ -2366,7 +2367,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *		`input` and others.
  */
-/* line 290, ../scss/utilities/_normalize.scss */
+/* line 291, ../scss/utilities/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -2379,7 +2380,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 302, ../scss/utilities/_normalize.scss */
+/* line 303, ../scss/utilities/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default; }
@@ -2387,7 +2388,7 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 311, ../scss/utilities/_normalize.scss */
+/* line 312, ../scss/utilities/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -2397,7 +2398,7 @@ input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 322, ../scss/utilities/_normalize.scss */
+/* line 323, ../scss/utilities/_normalize.scss */
 input {
   line-height: normal; }
 
@@ -2408,7 +2409,7 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 334, ../scss/utilities/_normalize.scss */
+/* line 335, ../scss/utilities/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -2421,7 +2422,7 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 346, ../scss/utilities/_normalize.scss */
+/* line 347, ../scss/utilities/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto; }
@@ -2430,7 +2431,7 @@ input[type="number"]::-webkit-outer-spin-button {
  * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
  */
-/* line 356, ../scss/utilities/_normalize.scss */
+/* line 357, ../scss/utilities/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -2442,7 +2443,7 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 367, ../scss/utilities/_normalize.scss */
+/* line 368, ../scss/utilities/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -2450,7 +2451,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 376, ../scss/utilities/_normalize.scss */
+/* line 377, ../scss/utilities/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -2460,7 +2461,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 387, ../scss/utilities/_normalize.scss */
+/* line 388, ../scss/utilities/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -2470,7 +2471,7 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-/* line 396, ../scss/utilities/_normalize.scss */
+/* line 397, ../scss/utilities/_normalize.scss */
 textarea {
   overflow: auto; }
 
@@ -2478,7 +2479,7 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-/* line 405, ../scss/utilities/_normalize.scss */
+/* line 406, ../scss/utilities/_normalize.scss */
 optgroup {
   font-weight: bold; }
 
@@ -2487,12 +2488,12 @@ optgroup {
 /**
  * Remove most spacing between table cells.
  */
-/* line 416, ../scss/utilities/_normalize.scss */
+/* line 417, ../scss/utilities/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 421, ../scss/utilities/_normalize.scss */
+/* line 422, ../scss/utilities/_normalize.scss */
 td,
 th {
   padding: 0; }
@@ -3299,178 +3300,182 @@ a {
   text-decoration: none; }
 
 /* line 5, ../scss/utilities/_typography.scss */
+p:not(:last-of-type) {
+  padding-bottom: 1em; }
+
+/* line 9, ../scss/utilities/_typography.scss */
 html {
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.87); }
   @media only screen and (min-width: 0) {
-    /* line 5, ../scss/utilities/_typography.scss */
+    /* line 9, ../scss/utilities/_typography.scss */
     html {
       font-size: 15px; } }
   @media only screen and (min-width: 1024px) {
-    /* line 5, ../scss/utilities/_typography.scss */
+    /* line 9, ../scss/utilities/_typography.scss */
     html {
       font-size: 15.5px; } }
   @media only screen and (min-width: 1440px) {
-    /* line 5, ../scss/utilities/_typography.scss */
+    /* line 9, ../scss/utilities/_typography.scss */
     html {
       font-size: 16px; } }
 
-/* line 25, ../scss/utilities/_typography.scss */
+/* line 29, ../scss/utilities/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   line-height: 1.1; }
 
-/* line 31, ../scss/utilities/_typography.scss */
+/* line 35, ../scss/utilities/_typography.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit; }
 
-/* line 32, ../scss/utilities/_typography.scss */
+/* line 36, ../scss/utilities/_typography.scss */
 h1 {
   font-size: 4.2rem;
   line-height: 110%;
   margin: 1.4rem 0 1.05rem 0; }
 
-/* line 33, ../scss/utilities/_typography.scss */
+/* line 37, ../scss/utilities/_typography.scss */
 h2 {
   font-size: 3.56rem;
   line-height: 110%;
   margin: 1.18667rem 0 0.89rem 0; }
 
-/* line 34, ../scss/utilities/_typography.scss */
+/* line 38, ../scss/utilities/_typography.scss */
 h3 {
   font-size: 2.92rem;
   line-height: 110%;
   margin: 0.97333rem 0 0.73rem 0; }
 
-/* line 35, ../scss/utilities/_typography.scss */
+/* line 39, ../scss/utilities/_typography.scss */
 h4 {
   font-size: 2.28rem;
   line-height: 110%;
   margin: 0.76rem 0 0.57rem 0; }
 
-/* line 36, ../scss/utilities/_typography.scss */
+/* line 40, ../scss/utilities/_typography.scss */
 h5 {
   font-size: 1.64rem;
   line-height: 110%;
   margin: 0.54667rem 0 0.41rem 0; }
 
-/* line 37, ../scss/utilities/_typography.scss */
+/* line 41, ../scss/utilities/_typography.scss */
 h6 {
   font-size: 1rem;
   line-height: 110%;
   margin: 0.33333rem 0 0.25rem 0; }
 
-/* line 40, ../scss/utilities/_typography.scss */
+/* line 44, ../scss/utilities/_typography.scss */
 em {
   font-style: italic; }
 
-/* line 41, ../scss/utilities/_typography.scss */
+/* line 45, ../scss/utilities/_typography.scss */
 strong {
   font-weight: 500; }
 
-/* line 42, ../scss/utilities/_typography.scss */
+/* line 46, ../scss/utilities/_typography.scss */
 small {
   font-size: 75%; }
 
-/* line 43, ../scss/utilities/_typography.scss */
+/* line 47, ../scss/utilities/_typography.scss */
 .light, .page-footer .footer-copyright {
   font-weight: 300; }
 
-/* line 44, ../scss/utilities/_typography.scss */
+/* line 48, ../scss/utilities/_typography.scss */
 .thin {
   font-weight: 200; }
 
-/* line 46, ../scss/utilities/_typography.scss */
+/* line 50, ../scss/utilities/_typography.scss */
 .flow-text {
   font-weight: 300; }
   @media only screen and (min-width: 360px) {
-    /* line 46, ../scss/utilities/_typography.scss */
+    /* line 50, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.2rem; } }
   @media only screen and (min-width: 396px) {
-    /* line 46, ../scss/utilities/_typography.scss */
+    /* line 50, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.224rem; } }
   @media only screen and (min-width: 432px) {
-    /* line 46, ../scss/utilities/_typography.scss */
+    /* line 50, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.248rem; } }
   @media only screen and (min-width: 468px) {
-    /* line 46, ../scss/utilities/_typography.scss */
+    /* line 50, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.272rem; } }
   @media only screen and (min-width: 504px) {
-    /* line 46, ../scss/utilities/_typography.scss */
+    /* line 50, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.296rem; } }
   @media only screen and (min-width: 540px) {
-    /* line 46, ../scss/utilities/_typography.scss */
+    /* line 50, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.32rem; } }
   @media only screen and (min-width: 576px) {
-    /* line 46, ../scss/utilities/_typography.scss */
+    /* line 50, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.344rem; } }
   @media only screen and (min-width: 612px) {
-    /* line 46, ../scss/utilities/_typography.scss */
+    /* line 50, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.368rem; } }
   @media only screen and (min-width: 648px) {
-    /* line 46, ../scss/utilities/_typography.scss */
+    /* line 50, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.392rem; } }
   @media only screen and (min-width: 684px) {
-    /* line 46, ../scss/utilities/_typography.scss */
+    /* line 50, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.416rem; } }
   @media only screen and (min-width: 720px) {
-    /* line 46, ../scss/utilities/_typography.scss */
+    /* line 50, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.44rem; } }
   @media only screen and (min-width: 756px) {
-    /* line 46, ../scss/utilities/_typography.scss */
+    /* line 50, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.464rem; } }
   @media only screen and (min-width: 792px) {
-    /* line 46, ../scss/utilities/_typography.scss */
+    /* line 50, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.488rem; } }
   @media only screen and (min-width: 828px) {
-    /* line 46, ../scss/utilities/_typography.scss */
+    /* line 50, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.512rem; } }
   @media only screen and (min-width: 864px) {
-    /* line 46, ../scss/utilities/_typography.scss */
+    /* line 50, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.536rem; } }
   @media only screen and (min-width: 900px) {
-    /* line 46, ../scss/utilities/_typography.scss */
+    /* line 50, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.56rem; } }
   @media only screen and (min-width: 936px) {
-    /* line 46, ../scss/utilities/_typography.scss */
+    /* line 50, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.584rem; } }
   @media only screen and (min-width: 972px) {
-    /* line 46, ../scss/utilities/_typography.scss */
+    /* line 50, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.608rem; } }
   @media only screen and (min-width: 1008px) {
-    /* line 46, ../scss/utilities/_typography.scss */
+    /* line 50, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.632rem; } }
   @media only screen and (min-width: 1044px) {
-    /* line 46, ../scss/utilities/_typography.scss */
+    /* line 50, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.656rem; } }
   @media only screen and (min-width: 1080px) {
-    /* line 46, ../scss/utilities/_typography.scss */
+    /* line 50, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.68rem; } }
   @media only screen and (max-width: 360px) {
-    /* line 46, ../scss/utilities/_typography.scss */
+    /* line 50, ../scss/utilities/_typography.scss */
     .flow-text {
       font-size: 1.2rem; } }
 
@@ -8140,72 +8145,92 @@ header {
       max-height: 55%; }
 
 /* line 38, ../scss/main.scss */
+header, .slider, .slider .slides, .slider .slides li {
+  height: 600px !important;
+  max-height: 100vh !important; }
+
+/* line 43, ../scss/main.scss */
 nav {
   margin-bottom: 20px; }
 
-/* line 42, ../scss/main.scss */
+/* line 47, ../scss/main.scss */
 .card {
   margin-top: 0;
-  color: #000000; }
-  /* line 46, ../scss/main.scss */
+  color: #000000;
+  overflow: hidden; }
+  /* line 52, ../scss/main.scss */
   .card p {
     font-size: 16px; }
-  /* line 50, ../scss/main.scss */
+  /* line 56, ../scss/main.scss */
   .card iframe {
     width: 100%; }
-  /* line 55, ../scss/main.scss */
+  /* line 61, ../scss/main.scss */
   .card .fb-page, .card .fb-page span, .card .fb-page iframe {
     width: 100% !important; }
 
-/* line 62, ../scss/main.scss */
+/* line 68, ../scss/main.scss */
 #section-social .brand-icon {
   text-align: center; }
-/* line 66, ../scss/main.scss */
+/* line 72, ../scss/main.scss */
 #section-social a {
   font-size: 1.3rem; }
 
-/* line 71, ../scss/main.scss */
+/* line 77, ../scss/main.scss */
+.video {
+  height: 0;
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative; }
+  /* line 83, ../scss/main.scss */
+  .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+/* line 92, ../scss/main.scss */
 .facebook-blue {
   color: #3b5998; }
-  /* line 73, ../scss/main.scss */
+  /* line 94, ../scss/main.scss */
   .facebook-blue.lighten {
     color: #4c70ba; }
 
-/* line 75, ../scss/main.scss */
+/* line 96, ../scss/main.scss */
 .instagram-maroon {
   color: #c13584; }
-  /* line 77, ../scss/main.scss */
+  /* line 98, ../scss/main.scss */
   .instagram-maroon.lighten {
     color: #d1589c; }
 
-/* line 79, ../scss/main.scss */
+/* line 100, ../scss/main.scss */
 .twitter-blue {
   color: #00aced; }
-  /* line 81, ../scss/main.scss */
+  /* line 102, ../scss/main.scss */
   .twitter-blue.lighten {
     color: #21c2ff; }
 
-/* line 83, ../scss/main.scss */
+/* line 104, ../scss/main.scss */
 .youtube-red {
   color: #bb0000; }
-  /* line 85, ../scss/main.scss */
+  /* line 106, ../scss/main.scss */
   .youtube-red.lighten {
     color: #ee0000; }
 
-/* line 87, ../scss/main.scss */
+/* line 108, ../scss/main.scss */
 .soundcloud-orange {
   color: #fe3801; }
-  /* line 89, ../scss/main.scss */
+  /* line 110, ../scss/main.scss */
   .soundcloud-orange.lighten {
     color: #fe6034; }
 
-/* line 91, ../scss/main.scss */
+/* line 112, ../scss/main.scss */
 .bandcamp-blue {
   color: #408ea3; }
-  /* line 93, ../scss/main.scss */
+  /* line 114, ../scss/main.scss */
   .bandcamp-blue.lighten {
     color: #58a8be; }
 
-/* line 96, ../scss/main.scss */
+/* line 117, ../scss/main.scss */
 .page-footer {
   padding-bottom: 20px; }

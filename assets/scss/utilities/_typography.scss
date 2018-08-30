@@ -2,6 +2,10 @@ a {
 	text-decoration: none;
 }
 
+p:not(:last-of-type) {
+	padding-bottom: 1em;
+}
+
 html{
 	line-height: 1.5;
 
